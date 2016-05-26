@@ -1,0 +1,36 @@
+{
+  "config": {
+    "vendor-dir": "AECore/plugins"
+  },
+  "name": "cycool89/araneaengine",
+  "description": "PHP HMVC Framework",
+  "keywords": [
+    "hmvc",
+    "php",
+    "framework",
+    "mvc"
+  ],
+  "homepage": "http://araneaengine.hu",
+  "type": "project",
+  "authors": [
+    {
+      "name": "János Kigyós",
+      "email": "cycool89@gmail.com",
+      "homepage": "http://kigyosjanos.hu",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "aengine\\": "AECore"
+    }
+  },
+  "require": {
+    "monolog/monolog": "1.0.*",
+    "smarty/smarty": "~3.1",
+    "doctrine/dbal": "v2.5.4",
+    "doctrine/orm": "v2.5.4",
+    "raveren/kint": "dev-master",
+    "psr/Log": "dev-master"
+  }
+}
